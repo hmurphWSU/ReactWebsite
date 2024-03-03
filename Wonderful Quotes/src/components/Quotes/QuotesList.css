@@ -1,0 +1,15 @@
+.quotes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.quotes-list__fallback {
+  color: white;
+  text-align: center;
+}
+
+.deleteAll {
+  background-color: rgba(198, 83, 83, 0.834);
+  color: white;
+  font-size: large;
+}

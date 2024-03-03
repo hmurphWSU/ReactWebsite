@@ -1,0 +1,39 @@
+.form-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 25px;
+  display: block;
+  color: white;
+}
+
+.form-control textarea {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #4b4b4b;
+}
+
+.form-control textarea:focus {
+  outline: none;
+  background: #dddba9;
+  border-color: #ffffff;
+  color: black;
+}
+
+.form-control.invalid textarea {
+  border-color: red;
+  background: #ffd7d7;
+  color: black;
+}
+
+.new-quote__actions {
+  text-align: center;
+}
